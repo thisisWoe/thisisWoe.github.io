@@ -3,3 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.navbar-brand img{
+    width: 50px;
+    border-radius: 100%;
+}
