@@ -1,0 +1,11 @@
+#italian{
+    background-image: url(../imgs/italianFlag.png) !important;
+    background-position: center;
+    background-size: contain;
+}
+
+#english{
+    background-image: url(../imgs/englishFlag.png) !important;
+    background-position: center;
+    background-size: contain;
+}
