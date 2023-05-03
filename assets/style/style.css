@@ -8,4 +8,11 @@
     background-image: url(../imgs/englishFlag.png) !important;
     background-position: center;
     background-size: contain;
+
+}
+
+#body{
+    background-image: url(../imgs/backgroundModal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
