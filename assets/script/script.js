@@ -6,6 +6,7 @@ function openModal() {
   }
 
 const languageModal = document.getElementById('staticBackdrop');
+const fadedEffect = document.getElementsByClassName('modal-backdrop');
 const italianButton = document.getElementById('italian');
 const englishButton = document.getElementById('english');
 
@@ -27,6 +28,7 @@ const englishButton = document.getElementById('english');
 //distruggo la modale e creo la pagina
 italianButton.addEventListener('click', function () {
     languageModal.remove();
+    document.body.innerHTML = '';
     //2 righe di prova
     let myBody = document.getElementById('body');
     myBody.classList.remove('modal-open');
@@ -36,6 +38,7 @@ italianButton.addEventListener('click', function () {
 });
 englishButton.addEventListener('click', function () {
     languageModal.remove();
+    document.body.innerHTML = '';
     //2 righe di prova
     let myBody = document.getElementById('body');
     myBody.classList.remove('modal-open');

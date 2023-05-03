@@ -1,14 +1,17 @@
 #italian{
     background-image: url(../imgs/italianFlag.png) !important;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    width: 90%;
+    height: 70px;
 }
 
 #english{
     background-image: url(../imgs/englishFlag.png) !important;
     background-position: center;
-    background-size: contain;
-
+    background-size: cover;
+    width: 90%;
+    height: 70px;
 }
 
 #body{
